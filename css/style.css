@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+/* here is the list of the variables */
+/* color palette */
+/* fonts varibales */
+main {
+  background-color: aquamarine;
+}
+
+div.cardWidth {
+  max-width: 500px;
+}
+
+.myImage {
+  height: 95%;
+  /*  or 100% of container */
+  width: 100%;
+  /* or 100% of container */
+  -o-object-fit: cover;
+     object-fit: cover;
+  /* none can be an option too as cover may deform it*/
+  -o-object-position: 20% 10%;
+     object-position: 20% 10%;
+  /* if both 50% will center it*/
+}
+
+.alignCenter {
+  margin: 0 auto;
+}
+
+/* styles giving classes specific font families */
+.font-1 {
+  font-family: "Codystar", cursive, sans-serif;
+}
+
+/* overwriting the default bootstrap font colors */
+.fontColor-1 {
+  color: #fff;
+}
+
+/* overwriting the default bootstrap background colors */
+.color-1 {
+  background-color: #fff;
+}
+
+/* basic styes */
+/* align items in the center of the container */
+.alignCenter {
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */

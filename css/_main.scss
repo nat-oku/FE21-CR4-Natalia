@@ -1,0 +1,17 @@
+main {
+  background-color: aquamarine;
+}
+
+div.cardWidth {
+  max-width: 500px;
+}
+
+// styling imgs of the movies
+.myImage {
+  height: 95%;      /*  or 100% of container */
+  width: 100%;    /* or 100% of container */
+  object-fit: cover; /* none can be an option too as cover may deform it*/
+  object-position: 20% 10%; /* if both 50% will center it*/
+    
+}
+
