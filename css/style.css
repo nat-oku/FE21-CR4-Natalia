@@ -22,10 +22,6 @@ div.cardWidth {
   /* if both 50% will center it*/
 }
 
-.alignCenter {
-  margin: 0 auto;
-}
-
 /* styles giving classes specific font families */
 .font-1 {
   font-family: "Codystar", cursive, sans-serif;
