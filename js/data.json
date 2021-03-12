@@ -8,26 +8,26 @@ let movies = `[
     "movieName": "Laughing At The Depths",
     "image": "../img/library-of-congress-7QytS-1kuIA-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-    "likes": 0
+    "likes": 10
   }, {
     "movieName": "Bathing In The Town",
     "image": "../img/library-of-congress-lonORIx6Z3o-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-    "likes": 0
+    "likes": 7
   }, {
     "movieName": "Crying In The Depths",
     "image": "../img/henri-meilhac-jJ0tLs2ROd4-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-    "likes": 0
+    "likes": 15
   }, {
     "movieName": "Flee To The Emperor",
     "image": "../img/mika-baumeister-CMLL0UD6AEE-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-    "likes": 0
+    "likes": 4
   }, {
     "movieName": "Going To The Ashes",
     "image": "../img/brennan-smart-jI41JtnV6hU-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
-    "likes": 0
+    "likes": 3
   }
 ]`
