@@ -11,11 +11,11 @@
 }
 
 .bgColor-3 {
-  background-color: #706C61;
+  background-color: #F5C518;
 }
 
 .bgColor-4 {
-  background-color: #F5C518;
+  background-color: #706C61;
 }
 
 /* font color variables*/
@@ -28,11 +28,11 @@
 }
 
 .textColor-3 {
-  color: #706C61;
+  color: #F5C518;
 }
 
 .textColor-4 {
-  color: #F5C518;
+  color: #706C61;
 }
 
 header div#newFont {
@@ -78,7 +78,7 @@ div.cardWidth {
 }
 
 footer a:hover {
-  color: #F5C518;
+  color: #F8F4E3;
 }
 
 /* styles giving classes specific font families */

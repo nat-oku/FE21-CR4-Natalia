@@ -14,11 +14,11 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
       </div>
       <div class="col-md-8 d-flex align-items-center">
         <div class="card-body m-1">
-          <h5 class="card-title font-2 textColor-4">${moviesData[movie].movieName}</h5>
+          <h5 class="card-title font-2 textColor-3">${moviesData[movie].movieName}</h5>
           <p class="card-text font-3 textColor-1">${moviesData[movie].description}</p>
           <div class="d-flex justify-content-end align-items-center" >
-            <p class="card-text m-2 font-3 textColor-1">Like <i class="fas fa-thumbs-up"></i></p>
-            <button class="m-2 clickButton btn buttonStyles textColor-2 fw-bold font-2" id="likeButton">${moviesData[movie].likes}</button>
+            <p class="card-text m-2 font-3 textColor-1">Like <i class="ps-1 fs-4 fas fa-thumbs-up"></i></p>
+            <button class="m-2 clickButton btn buttonStyles textColor-2 fw-bold font-1" id="likeButton">${moviesData[movie].likes}</button>
           </div>
         </div>
       </div>
