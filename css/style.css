@@ -7,6 +7,7 @@ main {
 
 div.cardWidth {
   max-width: 500px;
+  height: auto;
 }
 
 .myImage {
@@ -22,9 +23,24 @@ div.cardWidth {
   /* if both 50% will center it*/
 }
 
+.buttonStyles {
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}
+
 /* styles giving classes specific font families */
 .font-1 {
-  font-family: "Codystar", cursive, sans-serif;
+  font-family: "Geostar", cursive;
+}
+
+.font-2 {
+  font-family: "Geostar Fill", cursive;
+}
+
+.font-3 {
+  font-family: "Roboto", sans-serif;
 }
 
 /* overwriting the default bootstrap font colors */
@@ -41,5 +57,14 @@ div.cardWidth {
 /* align items in the center of the container */
 .alignCenter {
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */

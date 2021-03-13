@@ -10,16 +10,16 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
   <li class="movieListItem">
     <div class="card mb-3 cardWidth alignCenter">
       <div class="row g-0 bg-success">
-        <div class="col-md-4 d-flex align-items-center">
+        <div class="col-md-4 d-flex align-items-center p-1">
           <img src="${moviesData[movie].image}" class="img-thumbnail myImage bg-dark" alt="Movie Image">
         </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">${moviesData[movie].movieName}</h5>
-            <p class="card-text">${moviesData[movie].description}</p>
-            <div class="d-flex justify-content-end" >
-              <p class="card-text m-2">Like <i class="fas fa-thumbs-up"></i></p>
-              <button class="m-2 clickButton" id="likeButton">${moviesData[movie].likes}</button>
+        <div class="col-md-8 d-flex align-items-center">
+          <div class="card-body bg-warning m-1">
+            <h5 class="card-title font-2">${moviesData[movie].movieName}</h5>
+            <p class="card-text font-3">${moviesData[movie].description}</p>
+            <div class="d-flex justify-content-end align-items-center" >
+              <p class="card-text m-2 font-3">Like <i class="fas fa-thumbs-up"></i></p>
+              <button class="m-2 clickButton btn buttonStyles" id="likeButton">${moviesData[movie].likes}</button>
             </div>
           </div>
         </div>

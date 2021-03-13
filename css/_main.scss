@@ -2,8 +2,10 @@ main {
   background-color: aquamarine;
 }
 
+
 div.cardWidth {
   max-width: 500px;
+  height: auto;
 }
 
 // styling imgs of the movies
@@ -15,3 +17,11 @@ div.cardWidth {
     
 }
 
+
+//styles for the like button 
+.buttonStyles {
+  background-color: blueviolet;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+}

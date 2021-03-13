@@ -10,6 +10,14 @@
   font-family: $brand-font-1;
 }
 
+.font-2 {
+  font-family: $brand-font-2;
+}
+
+.font-3 {
+  font-family: $brand-font-3;
+}
+
 /* overwriting the default bootstrap font colors */
 .fontColor-1 {
   color: $brand-color-1;
@@ -27,4 +35,15 @@
   /* align items in the center of the container */
 .alignCenter {
   margin: 0 auto;
+}
+
+
+//styles for links
+a {
+  text-decoration: none; 
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
 }
