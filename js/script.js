@@ -29,12 +29,12 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
 
   //LIKE BUTTON
 //create a new array to store the click counters for each button
-let btns = [...document.getElementsByClassName(`clickButton`)]; //*see comment below
+let btns = [...document.getElementsByClassName(`clickButton`)];
 btnsClicksCountArray = new Array(btns.length); // saves the new click count in an array
 
-//iterate through each buttons and apply a "click" event for each
+//iterate through each button and apply a "click" event for each
 btns.forEach((btn, index) => {
-  btnsClicksCountArray[index] = `${moviesData[index].likes}`; //start the second array (btnsClicksCountArray) at the index: 0 
+  btnsClicksCountArray[index] = `${moviesData[index].likes}`; //start the second array (btnsClicksCountArray) at the index of the like-btn 
   btn.addEventListener('click', () => btn.innerHTML = ++btnsClicksCountArray[index]); //add event listener for "click" and increment the value stored in btnsClicksCountArray with its index; and write it in the button
 });
 console.log(btnsClicksCountArray)
