@@ -1,6 +1,6 @@
 let movies = `[
   {
-    "movieName": "Alice in Star Wars Land",
+    "movieName": "Alice in Wars Land",
     "image": "../img/ilona-bellotto-sbUgaxpWiSg-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
     "likes": 0
