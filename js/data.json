@@ -15,7 +15,7 @@ let movies = `[
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
     "likes": 7
   }, {
-    "movieName": "Crying In The Depths",
+    "movieName": "Crow Friendship",
     "image": "../img/henri-meilhac-jJ0tLs2ROd4-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
     "likes": 15
