@@ -63,9 +63,9 @@ div.cardWidth {
 
 .buttonStyles {
   background-color: #F5C518;
-  border-radius: 50%;
-  width: 3em;
-  height: 3em;
+  border-radius: 100%;
+  width: 3.6em;
+  height: 3.6em;
 }
 
 #sortButton {
