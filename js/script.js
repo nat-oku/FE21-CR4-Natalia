@@ -29,10 +29,9 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
 
 //create a new array to store the click counters for each button
 let btns = [...document.getElementsByClassName(`clickButton`)]; //*see comment below
-btnsClicksCountArray = new Array(btns.length); // saves the new click count
+btnsClicksCountArray = new Array(btns.length); // saves the new click count in an array
 
 //iterate through each buttons and apply a "click" event for each
-  //btn: the current button; index: i in the array (btns).
 btns.forEach((btn, index) => {
   btnsClicksCountArray[index] = `${moviesData[index].likes}`; //start the second array (btnsClicksCountArray) at the index: 0 
   btn.addEventListener('click', () => btn.innerHTML = ++btnsClicksCountArray[index]); //add event listener for "click" and increment the value stored in btnsClicksCountArray with its index; and write it in the button
@@ -49,13 +48,19 @@ console.log(btnsClicksCountArray)
 
   //SORT BUTTON
 // function - change the color of button's background
+
+let cardContainers = document.getElementsByClassName("cardContainer"); //gives back array
+console.log(cardContainers);
+
 function clickButton() {
   document.getElementById("sortButton").style.background = "#F5C518";
+  document.getElementById("sortButton").style.color = "#2A2B2A";
   //document.getElementsByClassName("movieListItem")[0].style.color = "yellow";
 
   return btnsClicksCountArray.sort(function sortList(a,b) { //sort list by numeric values - console.log to check
     return b - a;
   })
 }
+//document.getElementById('sortButton').addEventListener('click', clickButton, false);
 
-document.getElementById('sortButton').addEventListener('click', clickButton, false);
+
