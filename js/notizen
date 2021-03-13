@@ -1,0 +1,25 @@
+// das hat funktioniert:
+  function clickButton() {
+  document.getElementById("sortButton").style.background = "red";
+  document.getElementsByClassName("movieListItem")[i].style.color = "yellow";
+
+  return btnsClicksCountArray.sort(function sortList(a,b) { //sort list by numeric values - console.log to check
+    return b - a;
+  })
+}
+
+
+
+//old code
+//document.getElementById("sortButton").addEventListener("click", moviesData.sort(function(a,b) {return b.likes - a.likes;}));
+
+/*function sortMovies() {moviesData.sort(function(a,b) {
+    return b.likes - a.likes;
+  })
+}
+document.getElementById("sortButton").addEventListener("click", sortMovies);*/
+
+
+/*moviesData.sort(function sortList(a,b) { //sort list by numeric values
+  return b.likes - a.likes;
+})*/
