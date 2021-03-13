@@ -68,6 +68,10 @@ div.cardWidth {
   height: 3em;
 }
 
+#sortButton {
+  width: 4em;
+}
+
 /* styles giving classes specific font families */
 .font-1 {
   font-family: "Geostar", cursive;
