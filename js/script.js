@@ -7,7 +7,7 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
 
   //dynamic section of the website (displaying movies)
   `
-  <div class="card mb-3 cardWidth alignCenter shadow rounded bgColor-2">
+  <div class="card mb-3 cardWidth alignCenter shadow rounded bgColor-2 d-flex justify-content-between">
     <div class="row g-0 ">
       <div class="col-md-4 d-flex align-items-center p-1">
         <img src="${moviesData[movie].image}" class="img-thumbnail myImage bg-dark" alt="Movie Image">
@@ -27,6 +27,7 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
   `
 }
 
+  //LIKE BUTTON
 //create a new array to store the click counters for each button
 let btns = [...document.getElementsByClassName(`clickButton`)]; //*see comment below
 btnsClicksCountArray = new Array(btns.length); // saves the new click count in an array
@@ -37,12 +38,6 @@ btns.forEach((btn, index) => {
   btn.addEventListener('click', () => btn.innerHTML = ++btnsClicksCountArray[index]); //add event listener for "click" and increment the value stored in btnsClicksCountArray with its index; and write it in the button
 });
 console.log(btnsClicksCountArray)
-
-
-
-
-//* "...document." The three dots in JS are spread/rest operator. This  syntax allows an expression to be expanded in places where multiple arguments are expected. The rest parameter syntax is used for functions with variable number of arguments. The spread rest operator for arrays was introduced in ES6.
-
 
 
 
