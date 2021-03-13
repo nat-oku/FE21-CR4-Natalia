@@ -10,7 +10,7 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
   <div class="card mb-3 cardWidth alignCenter shadow rounded bgColor-2 d-flex justify-content-between">
     <div class="row g-0 ">
       <div class="col-md-4 d-flex align-items-center p-1">
-        <img src="${moviesData[movie].image}" class="img-thumbnail myImage bg-dark" alt="Movie Image">
+        <img src="${moviesData[movie].image}" class="img-thumbnail myImage bgColor-2" alt="Movie Image">
       </div>
       <div class="col-md-8 d-flex align-items-center">
         <div class="card-body m-1">
