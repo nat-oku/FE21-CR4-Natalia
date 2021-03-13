@@ -61,6 +61,6 @@ function clickButton() {
     return b - a;
   })
 }
-//document.getElementById('sortButton').addEventListener('click', clickButton, false);
+document.getElementById('sortButton').addEventListener('click', clickButton, false);
 
 
