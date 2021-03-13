@@ -1,12 +1,12 @@
 let movies = `[
   {
-    "movieName": "Remember The Past",
+    "movieName": "Alice in Star Wars Land",
     "image": "../img/ilona-bellotto-sbUgaxpWiSg-unsplash.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
     "likes": 0
   }, {
-    "movieName": "Laughing At The Depths",
-    "image": "../img/library-of-congress-7QytS-1kuIA-unsplash.jpg",
+    "movieName": "Star Wars: Empire Strikes Back",
+    "image": "../img/64be6bb3a44f66d2886c5c19c84f6bc2.jpg",
     "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam",
     "likes": 10
   }, {
