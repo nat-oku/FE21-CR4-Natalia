@@ -72,6 +72,15 @@ div.cardWidth {
   width: 4em;
 }
 
+.footerCopyrights {
+  height: 4em;
+  text-align: center;
+}
+
+footer a:hover {
+  color: #F5C518;
+}
+
 /* styles giving classes specific font families */
 .font-1 {
   font-family: "Geostar", cursive;
