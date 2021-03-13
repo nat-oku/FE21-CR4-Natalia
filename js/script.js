@@ -18,7 +18,7 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
           <p class="card-text font-3 textColor-1">${moviesData[movie].description}</p>
           <div class="d-flex justify-content-end align-items-center" >
             <p class="card-text m-2 font-3 textColor-1">Like <i class="fas fa-thumbs-up"></i></p>
-            <button class="m-2 clickButton btn buttonStyles textColor-2 fw-bold font-1 " id="likeButton">${moviesData[movie].likes}</button>
+            <button class="m-2 clickButton btn buttonStyles textColor-2 fw-bold font-2" id="likeButton">${moviesData[movie].likes}</button>
           </div>
         </div>
       </div>
