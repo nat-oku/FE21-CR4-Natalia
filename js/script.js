@@ -44,9 +44,6 @@ console.log(btnsClicksCountArray)
   //SORT BUTTON
 // function - change the color of button's background
 
-let cardContainers = document.getElementsByClassName("cardContainer"); //gives back array
-console.log(cardContainers);
-
 function clickButton() {
   document.getElementById("sortButton").style.background = "#F5C518";
   document.getElementById("sortButton").style.color = "#2A2B2A";
