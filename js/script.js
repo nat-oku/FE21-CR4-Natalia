@@ -8,18 +8,18 @@ for (let movie = 0 ; movie < moviesData.length; movie++) {
   //dynamic section of the website (displaying movies)
   `
   <li class="movieListItem">
-    <div class="card mb-3 cardWidth alignCenter">
-      <div class="row g-0 bg-success">
+    <div class="card mb-3 cardWidth alignCenter shadow">
+      <div class="row g-0 bgColor-2">
         <div class="col-md-4 d-flex align-items-center p-1">
           <img src="${moviesData[movie].image}" class="img-thumbnail myImage bg-dark" alt="Movie Image">
         </div>
         <div class="col-md-8 d-flex align-items-center">
-          <div class="card-body bg-warning m-1">
-            <h5 class="card-title font-2">${moviesData[movie].movieName}</h5>
-            <p class="card-text font-3">${moviesData[movie].description}</p>
+          <div class="card-body m-1">
+            <h5 class="card-title font-2 textColor-4">${moviesData[movie].movieName}</h5>
+            <p class="card-text font-3 textColor-1">${moviesData[movie].description}</p>
             <div class="d-flex justify-content-end align-items-center" >
-              <p class="card-text m-2 font-3">Like <i class="fas fa-thumbs-up"></i></p>
-              <button class="m-2 clickButton btn buttonStyles" id="likeButton">${moviesData[movie].likes}</button>
+              <p class="card-text m-2 font-3 textColor-1">Like <i class="fas fa-thumbs-up"></i></p>
+              <button class="m-2 clickButton btn buttonStyles textColor-2 fw-bold" id="likeButton">${moviesData[movie].likes}</button>
             </div>
           </div>
         </div>

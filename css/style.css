@@ -1,8 +1,46 @@
 /* here is the list of the variables */
 /* color palette */
-/* fonts varibales */
+/* fonts variables */
+/* background color variables*/
+.bgColor-1 {
+  background-color: #F8F4E3;
+}
+
+.bgColor-2 {
+  background-color: #2A2B2A;
+}
+
+.bgColor-3 {
+  background-color: #706C61;
+}
+
+.bgColor-4 {
+  background-color: #F5C518;
+}
+
+/* font color variables*/
+.textColor-1 {
+  color: #F8F4E3;
+}
+
+.textColor-2 {
+  color: #2A2B2A;
+}
+
+.textColor-3 {
+  color: #706C61;
+}
+
+.textColor-4 {
+  color: #F5C518;
+}
+
+header div#newFont {
+  color: #2A2B2A;
+}
+
 main {
-  background-color: aquamarine;
+  background-color: #F8F4E3;
 }
 
 div.cardWidth {
@@ -24,7 +62,7 @@ div.cardWidth {
 }
 
 .buttonStyles {
-  background-color: blueviolet;
+  background-color: #F5C518;
   border-radius: 50%;
   width: 3em;
   height: 3em;
@@ -43,16 +81,7 @@ div.cardWidth {
   font-family: "Roboto", sans-serif;
 }
 
-/* overwriting the default bootstrap font colors */
-.fontColor-1 {
-  color: #fff;
-}
-
 /* overwriting the default bootstrap background colors */
-.color-1 {
-  background-color: #fff;
-}
-
 /* basic styes */
 /* align items in the center of the container */
 .alignCenter {

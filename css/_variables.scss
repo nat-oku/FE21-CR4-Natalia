@@ -1,13 +1,50 @@
 /* here is the list of the variables */
 
   /* color palette */
-  $brand-color-1: #fff;
-  $brand-color-2: #333;
-  $brand-color-4: #C4A69D;
-  $brand-color-6: #363457;
+  $brand-color-1: #F8F4E3;
+  $brand-color-2: #2A2B2A;
+  $brand-color-3: #706C61;
+  $brand-color-4: #F5C518;
   
   
-    /* fonts varibales */
+    /* fonts variables */
   $brand-font-1: 'Geostar', cursive;
   $brand-font-2: 'Geostar Fill', cursive;
   $brand-font-3: 'Roboto', sans-serif;
+
+
+  /* background color variables*/
+  .bgColor-1 {
+    background-color: $brand-color-1;
+  } 
+
+  .bgColor-2 {
+    background-color: $brand-color-2;
+  } 
+
+  .bgColor-3 {
+    background-color: $brand-color-3;
+  } 
+  
+  .bgColor-4 {
+    background-color: $brand-color-4;
+  } 
+
+  /* font color variables*/
+  .textColor-1 {
+    color: $brand-color-1;
+  } 
+
+  .textColor-2 {
+    color: $brand-color-2;
+  } 
+
+  .textColor-3 {
+    color: $brand-color-3;
+  } 
+  
+  .textColor-4 {
+    color: $brand-color-4;
+  } 
+  
+  
