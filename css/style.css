@@ -39,6 +39,10 @@ header div#newFont {
   color: #2A2B2A;
 }
 
+header a:hover {
+  color: #F8F4E3;
+}
+
 main {
   background-color: #F8F4E3;
 }
